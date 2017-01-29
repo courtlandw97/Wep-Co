@@ -1,0 +1,81 @@
+body {
+  background: url(images/background.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.nav {
+   list-style: none;
+   text-align: center;
+   background-color: rgba(108, 77, 54, 0.65);
+   height: 75px;
+   color: white;
+   position: absolute;
+   width: 100%;
+   margin: 0px;
+   padding: 0;
+   left: 0%;
+   top: 0%;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.nav li {
+  margin-top: 1%;
+  padding: .5% 2%;
+  font-family: 'Oswald', sans-serif;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+
+}
+
+.social img {
+  height: 30px;
+  margin-top: 76px;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.name {
+  font-size: 125%;
+  margin: 0px 35px;
+}
+
+#special {
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+  margin: 10px 5%;
+  max-height: 150px;
+
+}
+
+.top-foot, .bottom-foot {
+   list-style: none;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.69);
+   height: 60px;
+   color: white;
+   width: 100%;
+   margin: 0px;
+   padding: 0;
+   left: 0%;
+   display: flex;
+   justify-content: center;
+}
+
+.top-foot {
+  bottom: 60px;
+}
+
+.bottom-foot {
+  bottom: 0px;
+}
+
+.top-foot li, .bottom-foot li {
+  margin-top: 4px;
+  padding: .5% 2%;
+}
